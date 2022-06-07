@@ -13,21 +13,21 @@
   </tr>
   <tr>
     <td>clay</td>
-    <td>pot, jar, tile</td>
+    <td>pot,jar,tile</td>
     <td>rock</td>
-    <td>limestone, chalk, marble</td>
+    <td>limestone,chalk,marble</td>
   </tr>
   <tr>
     <td>petroleum</td>
-    <td>plastic, fuel, asphalt, sweetner</td>
+    <td>plastic,fuel,asphalt,sweetner</td>
     <td>sand</td>
-    <td>chips, glass</td>
+    <td>chips,glass</td>
   </tr>
   <tr>
     <td>rock</td>
-    <td>marble, iron, copper</td>
+    <td>marble,iron,copper</td>
     <td>petroleum</td>
-    <td>fuel, fungicide</td>
+    <td>fuel,fungicide</td>
   </tr>
  </table>
 <br>
