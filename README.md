@@ -13,21 +13,21 @@
   </tr>
   <tr>
     <td>clay</td>
-    <td>pot, jar, tile</td>
+    <td>pot,jar,tile</td>
     <td>rock</td>
-    <td>limestone, chalk, marble</td>
+    <td>limestone,chalk,marble</td>
   </tr>
   <tr>
     <td>petroleum</td>
-    <td>plastic, fuel, asphalt, sweetner</td>
+    <td>plastic,fuel,asphalt,sweetner</td>
     <td>sand</td>
     <td>chips,glass</td>
   </tr>
   <tr>
     <td>rock</td>
-    <td>marble, iron, copper</td>
+    <td>marble,iron,copper</td>
     <td>petroleum</td>
-    <td>fuel, fungicide</td>
+    <td>fuel,fungicide</td>
   </tr>
  </table>
 <br>
@@ -40,16 +40,16 @@
   </tr>
   <tr>
     <td>rock</td>
-    <td>limestone, chalk, marble, iron, copper</td>
+    <td>limestone,chalk,marble,iron,copper</td>
     <td>5</td>
   </tr>
   <tr>
     <td>petroleum</td>
-    <td>plastic, fuel, asphalt, sweetner, fungicide</td>
+    <td>plastic,fuel,asphalt,sweetner,fungicide</td>
     <td>5</td>
   </tr>
 </table>
 <p>The function accept a dataframe as input. The arguments el1 and el2 are the <i>elements<i> of each group, char1 and char2 are their <u>characteristics</u>, and name1, name2, name3 are the names for each column in the final table (default is 'Element', 'Characteristics' and 'Total', respectively).
 <br>
   <h3>Note</h3>
-  <p>The dataframe must be padronized. Be very cautious about typos, letter case and whitespaces.</p>
+  <p>The dataframe must be padronized. Be very cautious about typos, letter case and avoid whitespaces.</p>
