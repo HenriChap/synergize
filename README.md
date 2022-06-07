@@ -6,10 +6,10 @@
 <h2>Example</h2>
 <table>
   <tr>
-    <td>Group1_Resources</td>
-    <td>Group1_Components_made_from_resources</td>
-    <td>Group2_Resources</td>
-    <td>Group2_Components_made_from_resources</td>
+    <td><b>Group1_Resources</b></td>
+    <td><b>Group1_Components_made_from_resources</b></td>
+    <td><b>Group2_Resources</b></td>
+    <td><b>Group2_Components_made_from_resources</b></td>
   </tr>
   <tr>
     <td>clay</td>
@@ -32,12 +32,11 @@
  </table>
 <br>
 <p>Using this example as template, synergize compares both "Resources" rows, then "Components_made_from_resources" and returns which are similar and how many "Components_made_from_resources" are common.</p>
-<br>
 <table>
  <tr>
-    <td>Elements</td>
-    <td>Characteristics</td>
-    <td>Total</td>
+    <td><b>Elements</b></td>
+    <td><b>Characteristics</b></td>
+    <td><b>Total</b></td>
   </tr>
   <tr>
     <td>rock</td>
