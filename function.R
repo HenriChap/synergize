@@ -17,7 +17,8 @@ synergize <- function(data_frame,el1=1,el2=3,char1=2,char2=4, x='Elements',y='Ch
       }}
    #fazer uma coluna com os processos dos pares modelo-experimento
    result_df<-list2DF(result)
-   elID<-vector()
+   if (dim(result_df)[2] > 0)
+   {elID<-vector()
    for (k in colnames(result_df))
    {output<-k
    elID[k]<-output}
@@ -35,3 +36,7 @@ synergize <- function(data_frame,el1=1,el2=3,char1=2,char2=4, x='Elements',y='Ch
    table<- data.frame(x=elID, y=char_union, z=numb_total)
    colnames(table)=c(x,y,z)
    return(table)}
+   else{
+      print('There are no common elements')
+      return(NULL)
+   }}
