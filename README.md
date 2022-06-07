@@ -1,1 +1,56 @@
 # synergize
+<h1> Synergize: a function in R to unite similarities</h1>
+<br>
+<p> Basically, this is personal project made when I had to explore giant list of genes and related biological processes. The main question was "I have many experimental <b>groups</b>, each group have different <u>elements</u>, and each element have different <i>characteristics</i>. How do I get which elements alongside with their caracteristics are common to each pair of groups?"</p>
+<br>
+<h2>Example</h2>
+<table>
+  <tr>
+    <td>Group1_Resources</td>
+    <td>Group1_Components_made_from_resources</td>
+    <td>Group2_Resources</td>
+    <td>Group2_Components_made_from_resources</td>
+  </tr>
+  <tr>
+    <td>clay</td>
+    <td>pot, jar, tile</td>
+    <td>rock</td>
+    <td>limestone, chalk, marble</td>
+  </tr>
+  <tr>
+    <td>petroleum</td>
+    <td>plastic, fuel, asphalt, sweetner</td>
+    <td>sand</td>
+    <td>chips, glass</td>
+  </tr>
+  <tr>
+    <td>rock</td>
+    <td>marble, iron, copper</td>
+    <td>petroleum</td>
+    <td>fuel, fungicide</td>
+  </tr>
+ </table>
+<br>
+<p>Using this example as template, synergize compares both "Resources" rows, then "Components_made_from_resources" and returns which are similar and how many "Components_made_from_resources" are common.</p>
+<br>
+<table>
+ <tr>
+    <td>Elements</td>
+    <td>Characteristics</td>
+    <td>Total</td>
+  </tr>
+  <tr>
+    <td>rock</td>
+    <td>marble</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>petroleum</td>
+    <td>fuel</td>
+    <td>1</td>
+  </tr>
+</table>
+<p>The function accept a dataframe as input. The arguments el1 and el2 are the <i>elements<i> of each group, char1 and char2 are their <u>characteristics</u>, and name1, name2, name3 are the names for each column in the final table (default is 'Element', 'Characteristics' and 'Total', respectively).
+<br>
+  <h3>Note</h3>
+  <p>The dataframe must be padronized. Be very cautious about typos, letter case and whitespaces.</p>
