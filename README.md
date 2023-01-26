@@ -52,4 +52,4 @@
 <p>The function accept a dataframe as input. The arguments el1 and el2 are the <i>elements</i> of each group, char1 and char2 are their <u>characteristics</u>, and name1, name2, name3 are the names for each column in the final table (default is 'Element', 'Characteristics' and 'Total', respectively).
 <br>
   <h3>Note</h3>
-  <p>The dataframe must be padronized. Be very cautious about typos, letter case and avoid whitespaces.</p>
+  <p>The data frame values must be padronized. Be very cautious about typos, letter case and avoid whitespaces.</p>
