@@ -1,7 +1,7 @@
 # synergize
 <h1> Synergize: a function in R to unite similarities</h1>
 <br>
-<p> Basically, this is personal project made when I had to explore giant list of genes and related biological processes. The main question was "I have many experimental <b>groups</b>, each group have different <u>elements</u>, and each element have different <i>characteristics</i>. How do I get which elements are common to each pair of groups and sum up their characteristics?"</p>
+<p> Basically, this is personal project made when I had to explore giant list of genes and related biological processes across experiments. The main question was "I have many experimental <b>groups</b>. Each group have different <b>elements</b>, and each element have different <b>characteristics</b>. How do I get which elements are common to each pair of groups and sum up their characteristics?"</p>
 <br>
 <h2>Example</h2>
 <table>
