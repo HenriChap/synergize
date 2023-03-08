@@ -1,5 +1,5 @@
 # synergize
-<h1> Synergize: a function in R to unite similarities</h1>
+<h1> Synergize: a function in R and Python to unite similarities</h1>
 <br>
 <p> Basically, this is personal project made when I had to explore giant list of genes and related biological processes across experiments. The main question was "I have many experimental <b>groups</b>. Each group have different <b>elements</b>, and each element have different <b>characteristics</b>. How do I get which elements are common to each pair of groups and sum up their characteristics?"</p>
 <br>
@@ -53,3 +53,4 @@
 <br>
   <h3>Note</h3>
   <p>The data frame values must be padronized. Be very cautious about typos, letter case and avoid whitespaces.</p>
+  <p>Python version does not accept "nan" values in characteristics column
